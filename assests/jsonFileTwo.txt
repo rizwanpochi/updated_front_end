@@ -1,0 +1,84 @@
+{
+  "models": [
+    {
+      "edges": [
+        {
+          "id": "2016bb60-9f82-4510-818b-f045cd632ad9",
+          "name": "navigate",
+          "sourceVertexId": "a8645254-8d88-438a-962c-21250967e58d",
+          "targetVertexId": "71bec230-8d89-40ed-9eda-29642f7b3653"
+        },
+        {
+          "id": "497248ce-0358-46cb-9aae-94129bad7114",
+          "name": "navigate",
+          "sourceVertexId": "a8645254-8d88-438a-962c-21250967e58d",
+          "targetVertexId": "872991f5-bcb2-4cdb-aa5a-75a46d2baef0"
+        },
+        {
+          "id": "59b42a35-1525-4d2f-ad3a-da06c0f97464",
+          "name": "navigate",
+          "sourceVertexId": "a8645254-8d88-438a-962c-21250967e58d",
+          "targetVertexId": "c12ce166-77fb-4552-9324-9dfd13225ce7"
+        },
+        {
+          "id": "f2c96d1e-8d32-4329-8d6e-f771a12081a1",
+          "name": "back",
+          "sourceVertexId": "71bec230-8d89-40ed-9eda-29642f7b3653",
+          "targetVertexId": "a8645254-8d88-438a-962c-21250967e58d"
+        },
+        {
+          "id": "31b9ea08-f35e-4304-887e-071472941ecd",
+          "name": "back",
+          "sourceVertexId": "c12ce166-77fb-4552-9324-9dfd13225ce7",
+          "targetVertexId": "a8645254-8d88-438a-962c-21250967e58d"
+        },
+        {
+          "id": "4d7105ef-e545-48ce-b670-efbf5f175b81",
+          "name": "back",
+          "sourceVertexId": "872991f5-bcb2-4cdb-aa5a-75a46d2baef0",
+          "targetVertexId": "a8645254-8d88-438a-962c-21250967e58d"
+        }
+      ],
+      "generator": "random(edge_coverage(100))",
+      "id": "784dff34-8431-4325-9d56-3e6c226134dd",
+      "name": "StateDiagram2",
+      "startElementId": "a8645254-8d88-438a-962c-21250967e58d",
+      "vertices": [
+        {
+          "id": "a8645254-8d88-438a-962c-21250967e58d",
+          "name": "home_page",
+          "properties": {
+            "x": 203,
+            "y": 258
+          }
+        },
+        {
+          "id": "872991f5-bcb2-4cdb-aa5a-75a46d2baef0",
+          "name": "jobs",
+          "properties": {
+            "x": 538,
+            "y": 254
+          }
+        },
+        {
+          "id": "c12ce166-77fb-4552-9324-9dfd13225ce7",
+          "name": "posts",
+          "properties": {
+            "x": 486,
+            "y": 471
+          }
+        },
+        {
+          "id": "71bec230-8d89-40ed-9eda-29642f7b3653",
+          "name": "search",
+          "properties": {
+            "x": 211,
+            "y": 503
+          }
+        }
+      ]
+    }
+  ],
+  "selectedModelIndex": 0,
+  "selectedElementId": "2016bb60-9f82-4510-818b-f045cd632ad9"
+}

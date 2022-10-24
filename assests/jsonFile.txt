@@ -1,0 +1,50 @@
+{
+  "models": [
+    {
+      "edges": [
+        {
+          "id": "2067c9f4-4269-4499-ad16-5742d75bc9fd",
+          "name": "correct_pin",
+          "sourceVertexId": "f655d4c2-4203-4590-9ab7-c4fef5554955",
+          "targetVertexId": "1b31727f-db04-4bc4-99bd-685ec4e876ae"
+        },
+        {
+          "id": "326c016c-126a-4821-a92f-3154bce1d13f",
+          "name": "log_out",
+          "sourceVertexId": "1b31727f-db04-4bc4-99bd-685ec4e876ae",
+          "targetVertexId": "f655d4c2-4203-4590-9ab7-c4fef5554955"
+        },
+        {
+          "id": "07e4dc16-71a9-4cac-bece-c933369d563a",
+          "name": "incorrect_pin",
+          "sourceVertexId": "f655d4c2-4203-4590-9ab7-c4fef5554955",
+          "targetVertexId": "f655d4c2-4203-4590-9ab7-c4fef5554955"
+        }
+      ],
+      "generator": "random(edge_coverage(100))",
+      "id": "8abcf457-8df9-40fd-a9f9-49bb7b5b35a3",
+      "name": "Untitled-4",
+      "startElementId": "f655d4c2-4203-4590-9ab7-c4fef5554955",
+      "vertices": [
+        {
+          "id": "f655d4c2-4203-4590-9ab7-c4fef5554955",
+          "name": "login_page",
+          "properties": {
+            "x": 200,
+            "y": 251
+          }
+        },
+        {
+          "id": "1b31727f-db04-4bc4-99bd-685ec4e876ae",
+          "name": "home_page",
+          "properties": {
+            "x": 593,
+            "y": 257
+          }
+        }
+      ]
+    }
+  ],
+  "selectedModelIndex": 0,
+  "selectedElementId": "f655d4c2-4203-4590-9ab7-c4fef5554955"
+}
